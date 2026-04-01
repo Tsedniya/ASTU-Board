@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function StudentDashboard() {
+export default function StaffDashboard() {
   const [announcements] = useState([
     {
       type: "Urgent",

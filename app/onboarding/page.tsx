@@ -46,7 +46,7 @@ export default function Onboarding() {
       if (!res.ok) {
         setError(data.error || "Failed to save profile");
       } else {
-        router.push("/dashboard"); // redirect after successful update
+        router.push("/student-dashboard"); // redirect after successful update
       }
     } catch (err) {
       setError("Something went wrong");
